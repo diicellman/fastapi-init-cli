@@ -20,9 +20,7 @@ def create_structure(structure, base_path=""):
 
 
 @app.command()
-def init(
-    name: Optional[str] = typer.Option("fastapi_project", help="Name of the project")
-):
+def init(name: str = typer.Option("fastapi_project", help="Name of the project")):
     """Initialize a new FastAPI project"""
     project_structure = {
         name: {
