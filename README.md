@@ -12,7 +12,7 @@ pip install git+https://github.com/diicellman/fastapi-init-cli.git
 To create a new FastAPI project:
 
 ```bash
-fastapi-cli [--name PROJECT_NAME]
+fastapi-cli --name [PROJECT_NAME]
 ```
 
 ## Development
